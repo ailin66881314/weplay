@@ -1,0 +1,969 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: false
+mode: rule
+log-level: silent
+external-controller: '0.0.0.0:9090'
+secret: ''
+proxies:
+  -
+    name: Basic-应急节点-限速5M
+    type: vmess
+    server: speed1.oooooooooo.icu
+    port: 50129
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: speed1.oooooooooo.icu
+  -
+    name: Pro-应急节点-限速3M
+    type: vmess
+    server: api0-1.oooooooooo.icu
+    port: 60313
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: api0-1.oooooooooo.icu
+  -
+    name: '🇹🇼 Basic-台湾-BGP-01'
+    type: vmess
+    server: 1111-2222.0001.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 41765
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0001.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Basic-台湾-家庭宽带-01'
+    type: vmess
+    server: 1111-2222.0002.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 48716
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0002.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Basic-新加坡-BGP-01'
+    type: vmess
+    server: 1111-2222.0003.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36676
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0003.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Basic-新加坡-BGP-02'
+    type: vmess
+    server: 1111-2222.0004.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 48752
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0004.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Basic-日本-BGP-01'
+    type: vmess
+    server: 1111-2222.0005.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50001
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0005.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Basic-日本-BGP-02'
+    type: vmess
+    server: 1111-2222.0006.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 58417
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0006.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-01'
+    type: vmess
+    server: 1111-2222.0007.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47602
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0007.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-02'
+    type: vmess
+    server: 1111-2222.0008.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49121
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0008.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-03'
+    type: vmess
+    server: 1111-2222.0009.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49125
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0009.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-04'
+    type: vmess
+    server: 1111-2222.0010.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49126
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0010.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-05'
+    type: vmess
+    server: 1111-2222.0011.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49127
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0011.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-06'
+    type: vmess
+    server: 1111-2222.0012.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53944
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0012.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Basic-美国-BGP-07'
+    type: vmess
+    server: 1111-2222.0013.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 60303
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0013.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇫🇮 Basic-芬兰-BGP-01'
+    type: vmess
+    server: 1111-2222.0014.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 57168
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0014.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-01'
+    type: vmess
+    server: 1111-2222.0015.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49120
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0015.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-02'
+    type: vmess
+    server: 1111-2222.0016.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 34794
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0016.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-03'
+    type: vmess
+    server: 1111-2222.0017.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36672
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0017.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-04'
+    type: vmess
+    server: 1111-2222.0018.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50882
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0018.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-05'
+    type: vmess
+    server: 1111-2222.0019.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36675
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0019.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-06'
+    type: vmess
+    server: 1111-2222.0020.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 34795
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0020.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-07'
+    type: vmess
+    server: 1111-2222.0021.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 58418
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0021.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-08'
+    type: vmess
+    server: 1111-2222.0022.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47836
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0022.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-09'
+    type: vmess
+    server: 1111-2222.0023.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36671
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0023.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-BGP-10'
+    type: vmess
+    server: 1111-2222.0024.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 60301
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0024.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-家庭宽带-01'
+    type: vmess
+    server: 1111-2222.0025.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 35419
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0025.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-家庭宽带-02'
+    type: vmess
+    server: 1111-2222.0026.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49511
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0026.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Basic-香港-家庭宽带-03'
+    type: vmess
+    server: 1111-2222.0027.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49112
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0027.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Pro-台湾-BGP-01'
+    type: vmess
+    server: 1111-2222.0002.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49111
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0002.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Pro-台湾-BGP-02'
+    type: vmess
+    server: 1111-2222.0003.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53137
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0003.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Pro-台湾-BGP-03'
+    type: vmess
+    server: 1111-2222.0004.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49484
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0004.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Pro-台湾-家庭宽带-01'
+    type: vmess
+    server: 1111-2222.0005.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 49434
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0005.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Pro-新加坡-BGP-01'
+    type: vmess
+    server: 1111-2222.0006.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47533
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0006.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Pro-新加坡-BGP-02'
+    type: vmess
+    server: 1111-2222.0007.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47534
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0007.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Pro-新加坡-BGP-03'
+    type: vmess
+    server: 1111-2222.0008.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53127
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0008.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇸🇬 Pro-新加坡-BGP-04'
+    type: vmess
+    server: 1111-2222.0009.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53945
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0009.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-01'
+    type: vmess
+    server: 1111-2222.0010.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50187
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0010.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-02'
+    type: vmess
+    server: 1111-2222.0011.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50188
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0011.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-03'
+    type: vmess
+    server: 1111-2222.0012.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50189
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0012.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-04'
+    type: vmess
+    server: 1111-2222.0013.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50191
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0013.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-05'
+    type: vmess
+    server: 1111-2222.0014.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50192
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0014.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-06'
+    type: vmess
+    server: 1111-2222.0015.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50810
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0015.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇯🇵 Pro-日本-BGP-07'
+    type: vmess
+    server: 1111-2222.0016.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 60302
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0016.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Pro-美国-BGP-01'
+    type: vmess
+    server: 1111-2222.0019.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36677
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0019.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Pro-美国-BGP-02'
+    type: vmess
+    server: 1111-2222.0020.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 23009
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0020.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Pro-美国-BGP-03'
+    type: vmess
+    server: 1111-2222.0021.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 58420
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0021.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Pro-美国-BGP-04'
+    type: vmess
+    server: 1111-2222.0022.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 48861
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0022.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇺🇲 Pro-美国-BGP-05'
+    type: vmess
+    server: 1111-2222.0023.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 60300
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0023.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    network: ws
+    ws-path: /game
+    ws-headers:
+      Host: 1111-2222.0023.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    ws-opts:
+      path: /game
+      headers: { Host: 1111-2222.0023.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com }
+  -
+    name: '🇭🇰 Pro-香港-BGP-01'
+    type: vmess
+    server: 1111-2222.0025.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 20000
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0025.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-02'
+    type: vmess
+    server: 1111-2222.0026.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50000
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0026.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-03'
+    type: vmess
+    server: 1111-2222.0027.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36154
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0027.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-04'
+    type: vmess
+    server: 1111-2222.0028.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53941
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0028.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-05'
+    type: vmess
+    server: 1111-2222.0029.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47835
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0029.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-06'
+    type: vmess
+    server: 1111-2222.0030.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 58416
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0030.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-07'
+    type: vmess
+    server: 1111-2222.0031.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47605
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0031.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-BGP-08'
+    type: vmess
+    server: 1111-2222.0032.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 56812
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0032.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-家庭宽带-01'
+    type: vmess
+    server: 1111-2222.0033.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36690
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0033.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-家庭宽带-02'
+    type: vmess
+    server: 1111-2222.0034.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36679
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0034.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-家庭宽带-03'
+    type: vmess
+    server: 1111-2222.0035.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 20001
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0035.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇭🇰 Pro-香港-家庭宽带-04'
+    type: vmess
+    server: 1111-2222.0036.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 36681
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0036.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: 乌克兰-Pro-01
+    type: vmess
+    server: 1111-2222.0046.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50101
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0046.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇷🇺 俄罗斯-Pro-01'
+    type: vmess
+    server: 1111-2222.0037.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50193
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0037.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇨🇦 加拿大-Pro-01'
+    type: vmess
+    server: 1111-2222.0048.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 48764
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0048.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇮🇳 印度-Pro-01'
+    type: vmess
+    server: 1111-2222.0001.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53845
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0001.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇷 土耳其-Pro-01'
+    type: vmess
+    server: 1111-2222.0038.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 25842
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0038.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: 尼日利亚-Pro-01
+    type: vmess
+    server: 1111-2222.0052.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 21459
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0052.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: 巴基斯坦-Pro-01
+    type: vmess
+    server: 1111-2222.0047.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 54190
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '🇩🇪 德国-Pro-01'
+    type: vmess
+    server: 1111-2222.0039.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53943
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0039.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇮🇹 意大利-Pro-01'
+    type: vmess
+    server: 1111-2222.0049.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 45794
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0049.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: 摩洛哥-Pro-01
+    type: vmess
+    server: 1111-2222.0050.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 25476
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0050.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇫🇷 法国-Pro-01'
+    type: vmess
+    server: 1111-2222.0017.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 34765
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0017.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇭 泰国-Pro-01'
+    type: vmess
+    server: 1111-2222.0040.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 48414
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0040.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇦🇺 澳大利亚-Pro-01'
+    type: vmess
+    server: 1111-2222.0018.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 60317
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0018.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇨🇭 瑞士-Pro-01'
+    type: vmess
+    server: 1111-2222.0051.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 21961
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0051.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇬🇧 英国-Pro-01'
+    type: vmess
+    server: 1111-2222.0041.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 53125
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0041.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇻🇳 越南-Pro-01'
+    type: vmess
+    server: 1111-2222.0042.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 47606
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0042.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇦🇷 阿根廷-Pro-01'
+    type: vmess
+    server: 1111-2222.0024.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 64141
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0024.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇰🇷 韩国-Pro-01'
+    type: vmess
+    server: 1111-2222.0043.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50109
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0043.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇰🇷 韩国-Pro-02'
+    type: vmess
+    server: 1111-2222.0044.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 50111
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0044.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇲🇾 马来西亚-Pro-01'
+    type: vmess
+    server: 1111-2222.0045.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+    port: 25841
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+    servername: 1111-2222.0045.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  -
+    name: '🇹🇼 Global-台湾01-直连每小时换IP'
+    type: vmess
+    server: 1-tw.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work
+    port: 46148
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '🇯🇵 Global-日本03-海外客户专用'
+    type: vmess
+    server: jp-1.xxx.al.t.fuckword.club
+    port: 35414
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: "🇦🇺 Global-澳大利亚01-海外客户专用\t"
+    type: vmess
+    server: 1-aus.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work
+    port: 55454
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+  -
+    name: '🇬🇧 Global-英国01-海外客户专用'
+    type: vmess
+    server: 1-gb.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work
+    port: 55878
+    uuid: 47c58e35-e500-3b7b-ab39-dc29ca0d2ec2
+    alterId: 0
+    cipher: auto
+    udp: true
+proxy-groups:
+  -
+    name: 国外流量
+    type: select
+    proxies:
+      - Basic-应急节点-限速5M
+      - Pro-应急节点-限速3M
+      - '🇹🇼 Basic-台湾-BGP-01'
+      - '🇹🇼 Basic-台湾-家庭宽带-01'
+      - '🇸🇬 Basic-新加坡-BGP-01'
+      - '🇸🇬 Basic-新加坡-BGP-02'
+      - '🇯🇵 Basic-日本-BGP-01'
+      - '🇯🇵 Basic-日本-BGP-02'
+      - '🇺🇲 Basic-美国-BGP-01'
+      - '🇺🇲 Basic-美国-BGP-02'
+      - '🇺🇲 Basic-美国-BGP-03'
+      - '🇺🇲 Basic-美国-BGP-04'
+      - '🇺🇲 Basic-美国-BGP-05'
+      - '🇺🇲 Basic-美国-BGP-06'
+      - '🇺🇲 Basic-美国-BGP-07'
+      - '🇫🇮 Basic-芬兰-BGP-01'
+      - '🇭🇰 Basic-香港-BGP-01'
+      - '🇭🇰 Basic-香港-BGP-02'
+      - '🇭🇰 Basic-香港-BGP-03'
+      - '🇭🇰 Basic-香港-BGP-04'
+      - '🇭🇰 Basic-香港-BGP-05'
+      - '🇭🇰 Basic-香港-BGP-06'
+      - '🇭🇰 Basic-香港-BGP-07'
+      - '🇭🇰 Basic-香港-BGP-08'
+      - '🇭🇰 Basic-香港-BGP-09'
+      - '🇭🇰 Basic-香港-BGP-10'
+      - '🇭🇰 Basic-香港-家庭宽带-01'
+      - '🇭🇰 Basic-香港-家庭宽带-02'
+      - '🇭🇰 Basic-香港-家庭宽带-03'
+      - '🇹🇼 Pro-台湾-BGP-01'
+      - '🇹🇼 Pro-台湾-BGP-02'
+      - '🇹🇼 Pro-台湾-BGP-03'
+      - '🇹🇼 Pro-台湾-家庭宽带-01'
+      - '🇸🇬 Pro-新加坡-BGP-01'
+      - '🇸🇬 Pro-新加坡-BGP-02'
+      - '🇸🇬 Pro-新加坡-BGP-03'
+      - '🇸🇬 Pro-新加坡-BGP-04'
+      - '🇯🇵 Pro-日本-BGP-01'
+      - '🇯🇵 Pro-日本-BGP-02'
+      - '🇯🇵 Pro-日本-BGP-03'
+      - '🇯🇵 Pro-日本-BGP-04'
+      - '🇯🇵 Pro-日本-BGP-05'
+      - '🇯🇵 Pro-日本-BGP-06'
+      - '🇯🇵 Pro-日本-BGP-07'
+      - '🇺🇲 Pro-美国-BGP-01'
+      - '🇺🇲 Pro-美国-BGP-02'
+      - '🇺🇲 Pro-美国-BGP-03'
+      - '🇺🇲 Pro-美国-BGP-04'
+      - '🇺🇲 Pro-美国-BGP-05'
+      - '🇭🇰 Pro-香港-BGP-01'
+      - '🇭🇰 Pro-香港-BGP-02'
+      - '🇭🇰 Pro-香港-BGP-03'
+      - '🇭🇰 Pro-香港-BGP-04'
+      - '🇭🇰 Pro-香港-BGP-05'
+      - '🇭🇰 Pro-香港-BGP-06'
+      - '🇭🇰 Pro-香港-BGP-07'
+      - '🇭🇰 Pro-香港-BGP-08'
+      - '🇭🇰 Pro-香港-家庭宽带-01'
+      - '🇭🇰 Pro-香港-家庭宽带-02'
+      - '🇭🇰 Pro-香港-家庭宽带-03'
+      - '🇭🇰 Pro-香港-家庭宽带-04'
+      - 乌克兰-Pro-01
+      - '🇷🇺 俄罗斯-Pro-01'
+      - '🇨🇦 加拿大-Pro-01'
+      - '🇮🇳 印度-Pro-01'
+      - '🇹🇷 土耳其-Pro-01'
+      - 尼日利亚-Pro-01
+      - 巴基斯坦-Pro-01
+      - '🇩🇪 德国-Pro-01'
+      - '🇮🇹 意大利-Pro-01'
+      - 摩洛哥-Pro-01
+      - '🇫🇷 法国-Pro-01'
+      - '🇹🇭 泰国-Pro-01'
+      - '🇦🇺 澳大利亚-Pro-01'
+      - '🇨🇭 瑞士-Pro-01'
+      - '🇬🇧 英国-Pro-01'
+      - '🇻🇳 越南-Pro-01'
+      - '🇦🇷 阿根廷-Pro-01'
+      - '🇰🇷 韩国-Pro-01'
+      - '🇰🇷 韩国-Pro-02'
+      - '🇲🇾 马来西亚-Pro-01'
+      - '🇹🇼 Global-台湾01-直连每小时换IP'
+      - '🇯🇵 Global-日本03-海外客户专用'
+      - "🇦🇺 Global-澳大利亚01-海外客户专用\t"
+      - '🇬🇧 Global-英国01-海外客户专用'
+  -
+    name: googleplay
+    type: select
+    proxies:
+      - '🇹🇼 Pro-台湾-BGP-01'
+      - '🇹🇼 Pro-台湾-BGP-02'
+      - '🇹🇼 Pro-台湾-BGP-03'
+      - '🇹🇼 Pro-台湾-家庭宽带-01'
+      - '🇹🇼 Basic-台湾-BGP-01'
+      - '🇹🇼 Basic-台湾-家庭宽带-01'
+
+rules:
+  - DOMAIN,accounts.google.com,googleplay
+  - DOMAIN,myaccount.google.com,googleplay
+  - DOMAIN,play.googleapis.com,googleplay
+  - DOMAIN,play-fe.googleapis.com,googleplay
+  - GEOIP,CN,DIRECT
+  - MATCH,国外流量
